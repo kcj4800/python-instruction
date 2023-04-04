@@ -51,6 +51,8 @@ print('a - ', a)
 print('a - ', a.index(5)) # a - 0 : 찾고자 하는 값의 인덱스 번호가 중복되면 가장 앞에있는 인덱스 번호를 알려준다.
 print('a - ', a.count(4))
 
+
+
 # 팩킹 & 언팩킹(Packing, and Unpacking)
 
 # 팩킹
@@ -91,3 +93,13 @@ print(t2)
 print(t3)
 print(x1,x2,x3)
 print(x4,x5,x6)
+
+# .index() 메소드와 zz[] 인덱싱 의 차이
+print()
+print()
+print('=================================')
+zz=[1,2,3,4,'돼지','꿀꿀']
+print(zz.index(2)) # index(값) - 값의 인덱스 번호를 알려준다. - 슬라이싱이 불가능하다.
+print(zz.index('돼지')) # 4 - 돼지의 인덱스 번호
+print(zz[2]) # 인덱스 번호 2의 값을 알려준다.
+print(zz[4:]) # 인덱스 번호 4의 값 '돼지'부터 끝까지 값을 출력 인덱싱으로 찾으면 슬라이싱이 가능하다.
