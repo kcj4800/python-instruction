@@ -105,3 +105,13 @@ while a:
     if 2 is l:
         print(a)
         break
+
+# reverse 메소드와 reversed 함수의 차이점
+a = [1, 2, 3, 4, 5]
+print(a)
+print(list(reversed(a)))
+print(a)
+reversed(a)
+print(a)
+a.reverse()
+print(a)
