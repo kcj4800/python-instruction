@@ -196,3 +196,15 @@ print(a)
 print('돼지' in a, type('돼지' in a))
 print('토끼' in a)
 
+# print('{},{}:',format(a.토끼, a.병아리))
+class animal():
+    def __init__(self, name, sound, sex):
+        self.a = name
+        self.b = sound
+        self.c = sex
+
+c = animal("돼지", "꿀꿀",'M')
+d = animal('닭','꼬끼오','F')
+
+print(animal, c.__dict__, d.__dict__)
+print('{} is {}({}) and {} is {}({})'.format(c.a, c.b, c.c, d.a, d.b, d.c))
