@@ -23,7 +23,7 @@
 # print("type of number", type(number), number * 3)
 # print("type of nanme", type(name))
 
-# # 예제3(계산) - 형변환
+# # 예제3(계산) - 형변환 - input() 함수는 str 형으로 받기 때문에 숫자로써 받기 위해서는 int()혹은 float()형으로 형변환 해줘야 한다.
 # first_number = int(input("Enter number1 : "))
 # second_number = int(input("Enter number2 : "))
 
@@ -38,7 +38,7 @@
 # print("input type : ", type(float_number))
 
 
-# 예제5
+# 예제5 -> fstring - print(f'{}, {}'), format함수 - print({0},{1}.format(x, y))
 print("FirstName - {0}, LastName - {1}".format(input("Enter first name : "), input("Enter second name : ")))
 x=input('Enter your first name : ')
 y=input('Enter your last name : ')
