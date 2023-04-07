@@ -76,7 +76,7 @@ print(time.time())
 print(time.localtime(time.time()))
 print(time.ctime())
 print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time)))
-for i range(5):
+for i in range(5) :
 	print(i)
 	time.sleep(1)
 
