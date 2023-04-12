@@ -129,6 +129,7 @@ words=[]
 with open('./resource/word_list.csv', 'w') as f:
     fields = ['Name', 'Hint']
     writer = csv.DictWriter(f, fieldnames=fields)
+    writer.writeheader()
     for v in Monster:
         writer.writerow({fields[0]: v, fields[1]:'monster'})
     for v in fruit:
